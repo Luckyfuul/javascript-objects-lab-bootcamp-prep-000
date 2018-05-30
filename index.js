@@ -1,4 +1,4 @@
-var recipes = {}
+var recipes = {prop: 1}
 
 function updateObjectWithKeyAndValue(object, key, value) {
   recipes[key] = value
@@ -12,6 +12,6 @@ function deleteFromObjectByKey(object, key){
  return delete object.key;
 }
 function destructivelyDeleteFromObjectByKey(object, key){
-  delete object.key;
-  return object
+return   delete object.key;
+  
 }
